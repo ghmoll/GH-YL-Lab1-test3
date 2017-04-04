@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: GH YL Lab1 test3
+  host: GH-YL-Lab1-test3
+  disk_quota: 1024M
+  services:
+  - GH YL Lab1 test3-cloudantNoSQLDB
+  - availability-monitoring-auto
